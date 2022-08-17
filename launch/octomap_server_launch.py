@@ -33,6 +33,7 @@ def generate_launch_description():
               'sensor_model/miss': 0.3,
               'sensor_model/min': 0.1,
               'sensor_model/max': 0.99,
+              #'sensor_model/max': 0.99,
               'color/r': 0.0,
               'color/g': 0.0,
               'color/b': 1.0,
@@ -42,7 +43,7 @@ def generate_launch_description():
               'color_free/b': 1.0,
               'color_free/a': 1.0,
               'publish_free_space': True,
-             # 'OccupancyThres':0.5,
+             #'OccupancyThres':0.5,
             
     }
     
